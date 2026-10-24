@@ -1,0 +1,110 @@
+@media (max-width: 1199.98px) {
+  .hero-title {
+    font-size: clamp(2.5rem, 7vw, 4.4rem);
+  }
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --header-height: 72px;
+  }
+
+  .site-section {
+    padding: 80px 0;
+  }
+
+  .hero {
+    padding: 3rem 0 3.5rem;
+  }
+
+  .hero-portrait {
+    margin-top: 2.5rem;
+    max-width: 420px;
+  }
+
+  .nav-cta {
+    margin: 0.35rem 0 0.85rem 0.7rem;
+  }
+
+  .navbar-collapse {
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--color-dark);
+    margin-top: 0.75rem;
+  }
+
+  .nav-link-site {
+    padding: 0.7rem 0.7rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    --header-height: 68px;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  .site-section {
+    padding: var(--section-spacing-mobile) 0;
+  }
+
+  .hero {
+    padding: 2.25rem 0 2.75rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2.35rem, 12vw, 3.1rem);
+  }
+
+  .brand-lockup__role {
+    display: none;
+  }
+
+  .hero-portrait__accent {
+    right: -8px;
+    bottom: -8px;
+    height: 8px;
+  }
+
+  .about-panel {
+    margin-top: 1.5rem;
+    padding: 1.35rem;
+  }
+
+  .experience-card,
+  .cert-card,
+  .contact-card {
+    padding: 1.2rem;
+  }
+
+  .portfolio-card__title {
+    font-size: 1.05rem;
+  }
+
+  .section-intro {
+    margin-bottom: 1.75rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .btn-site {
+    width: 100%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-card:hover .portfolio-card__image {
+    transform: none;
+  }
+}
