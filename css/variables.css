@@ -1,0 +1,28 @@
+
+:root {
+  --color-white: #ffffff;
+ --color-seablue: #003c5f;
+  
+  --color-accent: #8b0404;
+  --color-dark: #003c5f;
+  --color-seadark: #00282b;
+
+  --font-heading: "helvetica", sans-serif;
+  --font-body: "Playfair Display",serif;
+
+  --container-max-width: 1200px;
+  --section-spacing: 96px;
+  --section-top-gap: 0px;
+  --section-spacing-mobile: 64px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --transition-fast: 180ms ease;
+  --transition-normal: 280ms ease;
+
+  --header-height: 80px;
+  --shadow-soft: 0 10px 30px rgba(44, 44, 44, 0.06);
+  
+}
